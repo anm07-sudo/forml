@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
 
 html, body {
     height: 100%;
     margin: 0;
-    overflow: hidden;
-    font-family: "Marck Script", serif;
+    font-family: "Kavivanar", serif;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #gradient {
-    background: linear-gradient(to top, #f0e6ef, #9c89b8);
+    background: linear-gradient(to top, #ffc1cb, #7a4d59);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -19,53 +18,34 @@ html, body {
     height: 100%;
 }
 
-.scnd-btn {
-    background-color: #f0a6ca;
+h1, h2, h3, h4, h5, h6, p {
     padding: 10px;
-    font-size: 25px;
-    border: 1px solid #7a6f9b;
-    border-radius: 50px;
-    color: #7a6f9b;
+    color:#fbb1bd;
+}
+
+.scnd-btn {
+    padding: 10px;
+    font-size: 15px;
+    color: #85182a;
     text-decoration: none;
-    position: relative;
-    align-self: bottom;
-    margin-bottom: 30px;
 }
 
 .scnd-btn:visited,
 .scnd-btn:active,
 .scnd-btn:focus {
-    color: #7a6f9b;
+    color: #250902;
     text-decoration: none;
     outline: none;
 }
 
-.scnd-btn:hover {
-    background-color: #b8bedd;
-    border-color: #9c89b8;
-    cursor: crosshair;
-}
-
-#box1 {
-    border-color: #7a6f9b; 
-    box-shadow: 0 0 20px #f759ff; 
-    background-color: #f0e6ef;
-    border-radius: 5px;
-    width: 80%;
-    height: 80%;
-    overflow: hidden;
-    align-self: center;
-    margin-top: 20px;
-    padding: 5px;
-}
-
 p {
-    font-size: 15%;
-    color: #7a6f9b;
+    font-size: 18px;
+    color: #25000a;
 }
 
 h6 {
-    font-size: 25px;
-    color: #f0a6ca;
+    font-size: 20px;
+    color: #85182a;
     text-align: center;
+    margin: 0px;
 }
